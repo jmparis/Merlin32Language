@@ -13,6 +13,8 @@ using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.TextManager.Interop;
 using Microsoft.VisualStudio.Utilities;
 
+using Microsoft.VisualStudio.Text.Operations;
+
 namespace VSMerlin32
 {
     #region Command Filter
@@ -28,8 +30,7 @@ namespace VSMerlin32
         [Import]
         internal ICompletionBroker CompletionBroker { get; set; }
         [Import]
-        //internal SVsServiceProvider ServiceProvider { get; set; }
-        internal ServiceProvider ServiceProvider { get; set; }
+        internal SVsServiceProvider ServiceProvider { get; set; }
 
         public void VsTextViewCreated(IVsTextView textViewAdapter)
         {
