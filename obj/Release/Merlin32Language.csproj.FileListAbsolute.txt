@@ -29,3 +29,4 @@ C:\Users\VBHP7474\dev\jmparis\Merlin32Language\obj\Release\Merlin32Language.cspr
 C:\Users\VBHP7474\dev\jmparis\Merlin32Language\obj\Release\Merlin32Language.dll
 C:\Users\VBHP7474\dev\jmparis\Merlin32Language\obj\Release\Merlin32Language.pdb
 C:\Users\VBHP7474\dev\jmparis\Merlin32Language\obj\Release\extension.vsixmanifest
+C:\Users\VBHP7474\dev\jmparis\Merlin32Language\obj\Release\Merlin32Language.csprojResolveAssemblyReference.cache

@@ -36,3 +36,10 @@ Dependencies
 Prerequisites
 
   Visual Studio core editor   [15.0.26606.0,16.0]
+
+g. References
+
+Add Microsoft.VisualStudio.Shell.Framework  15.0.0.0
+
+
+

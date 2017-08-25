@@ -28,8 +28,7 @@ namespace VSMerlin32
         [Import]
         internal ICompletionBroker CompletionBroker { get; set; }
         [Import]
-        //internal SVsServiceProvider ServiceProvider { get; set; }
-        internal ServiceProvider ServiceProvider { get; set; }
+        internal SVsServiceProvider ServiceProvider { get; set; }
 
         public void VsTextViewCreated(IVsTextView textViewAdapter)
         {
